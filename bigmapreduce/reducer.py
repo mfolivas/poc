@@ -4,7 +4,7 @@ import sys
 
 
 def output(previous_key, total):
-	if previous_key != None:
+	if previous_key is not None:
 		print previous_key+" was found "+ str(total) + " times"
 		
 previous_key = None
